@@ -1,10 +1,7 @@
-function Layout(props) {
-  return (
-    <>
-      <MainNavigation />
-      <main>{props.children}</main>
-    </>
-  );
+import classes from "./logo.module.css";
+
+function Logo() {
+  return <div className={classes.logo}>Max's Next Blog</div>;
 }
 
-export default Layout;
+export default Logo;

@@ -1,8 +1,10 @@
 import Link from "next/link";
+import classes from "./main-navigation.module.css";
+import Logo from "./logo";
 
 function ManNavigation() {
   return (
-    <header>
+    <header className={classes.header}>
       <Link href="/">
         <Logo />
       </Link>
